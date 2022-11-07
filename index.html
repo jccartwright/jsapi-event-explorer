@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSAPI Event/Property Explorer</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="viewDiv"></div>
+      <div id="panel" class="esri-widget">
+        <div id="events" class="container">
+          <a
+            class="title"
+            href="https://developers.arcgis.com/javascript/latest/api-reference/esri-views-View.html#events-summary"
+            target="_blank"
+            >Class View Events:</a
+          >
+        </div>
+        <div id="properties" class="container">
+          <a
+            class="title"
+            href="https://developers.arcgis.com/javascript/latest/api-reference/esri-views-View.html#properties-summary"
+            target="_blank"
+            >Class View Properties:</a
+          >
+        </div>
+        <div id="layerProperties" class="container">
+          <a
+            class="title"
+            href="https://developers.arcgis.com/javascript/latest/api-reference/esri-layers-FeatureLayer.html#properties-summary"
+            target="_blank"
+            >Layer Properties:</a
+          >
+        </div>
+        <div id="layerViewProperties" class="container">
+          <a
+            class="title"
+            href="https://developers.arcgis.com/javascript/latest/api-reference/esri-views-layers-FeatureLayerView.html#properties-summary"
+            target="_blank"
+            >LayerView Properties:</a
+          >
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
